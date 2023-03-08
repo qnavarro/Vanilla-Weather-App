@@ -43,7 +43,7 @@ function showTemp(response) {
 }
 
 let apiKey = "d55c48b1d5bef2cd3c926fefba853e0e";
-let city = "Honolulu";
+let city = "Los Angeles";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(showTemp);
