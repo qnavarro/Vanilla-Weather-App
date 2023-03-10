@@ -24,13 +24,18 @@ li {
 li::first-letter {
 	text-transform: capitalize;
 }
+
+a {
+	text-decoration: none;
+}
+
 .weather-app-wrapper {
 	max-width: 600px;
 	margin: 30px auto;
 }
 .weather-app {
 	padding: 20px;
-	border: 3px solid #cadad9;
+	border: 3px solid #9adbd7;
 	border-radius: 23px;
 }
 .overview {
@@ -42,11 +47,20 @@ li::first-letter {
 	width: 64px;
 }
 .weather-temperature strong {
-	color: #b4c4c9;
+	color: #8ac8db;
 	font-size: 40px;
 	line-height: 1;
 }
 .weather-temperature .units {
 	position: relative;
 	font-size: 16px;
+}
+
+.weather-temperature .active {
+	color: #8ac8db;
+	cursor: default;
+}
+
+.weather-temperature .active:hover {
+	text-decoration: none;
 }
