@@ -1,5 +1,13 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	background: radial-gradient(
+		328px at 2.9% 15%,
+		rgb(191, 224, 251) 0%,
+		rgb(232, 233, 251) 25.8%,
+		rgb(252, 239, 250) 50.8%,
+		rgb(234, 251, 251) 77.6%,
+		rgb(240, 251, 244) 100.7%
+	);
 }
 
 h1 {
@@ -38,6 +46,7 @@ a {
 	padding: 20px;
 	border: 3px solid #9adbd7;
 	border-radius: 23px;
+	background: white;
 }
 .overview {
 	margin-bottom: 20px;
@@ -55,10 +64,11 @@ a {
 .weather-temperature .units {
 	position: relative;
 	font-size: 16px;
+	color: #8ac8db;
 }
 
 .weather-temperature .active {
-	color: #8ac8db;
+	color: #67c1dc;
 	cursor: default;
 }
 
